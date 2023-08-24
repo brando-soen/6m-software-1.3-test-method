@@ -4,10 +4,27 @@
     - Print each student's name inside the loop using console.log().
 */
 
-const studentList = ["Johnson", "Christina", "Michael", "Lina", "Larry", "Michelle", "Bob", "Wilson"]
+const studentList = ["Johnson", "Christina", "Michael", "Lina", "Larry", "Michelle", "Bob", "Wilson", "David"]
 
 function printStudentNames(){
-    // Add code here
+    
+
+    // use for loop
+    
+    for (let b = 0; b < studentList.length; b++) {
+        console.log(studentList[b]);
+    }
+    
+
+    // use forEach() Method
+    /**    
+    let index = 0;
+    studentList.forEach(myFunction);
+    function myFunction(item, index) {
+        console.log(item);
+    }
+    */ 
+
 }
 
 printStudentNames();
